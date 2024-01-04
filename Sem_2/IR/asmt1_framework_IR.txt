@@ -1,0 +1,18 @@
+ Test script
+
+
+ impact of stemming on an inverted index.
+
+applies stemming to a set of words from the chosen dataset
+
+ Discuss how stemming impacts the construction of an inverted index.
+
+ term frequency and document frequency for a given term in an inverted index
+
+ Discuss these metrics in the context of information retrieval.
+
+
+ stemming
+ inverted index
+ term freq
+ doc freq of a term in an inverted index

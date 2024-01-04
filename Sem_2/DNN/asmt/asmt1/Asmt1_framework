@@ -1,0 +1,56 @@
+# 
+1 cnn - medical research
+2 Application for cancer detection
+3 Wildlife Classification
+4 Emotion Recognition in Social Media
+
+# DONT pick papers with existing code implemention 
+# LOOK for papers with most part with transfer learning 
+
+
+
+Architecture of Deep Learning (including the number of layers, types of layers, activation functions, and any unique features)
+
+
+CNN:
+Transfer learning on VGG16 CNN and Resnet50 pretrained on colour camera images
+	-13 convolutional layers used:filter size 3x3, stride 1, padding 1
+	-Initial image size 224x224x1 (grayscale) - to all 3 channels
+	-5 padding layers after each convolutional layer: Window 2x2 stride 2
+	-Last 2 layers - trainable : 
+		--Global Average Poolng and 64 neuron dense layer with dropout
+	-Activation function: ReLU
+	-Final: Classification layer - sigmoid
+Same for both VGG16 and ResNet50 models
+
+
+
+How is the network helping the overall task? eg: feature engg or classification or regression or all  
+
+Training procedures (e.g, training strategy, including optimization algorithms, learning rates, batch sizes, and regularization techniques)
+
+Trainable layer : Dense layer with 64 neurons and dropout
+- Optimisation algorithm: RMSProp
+- lr : Cyclic learning rate used,  with Base learning rate= 0.0001 and Max learning rate= 0.001.
+- Loss Function: Binary cross entropy
+- 10 Fold cross valdation
+- Snapshot ensemble used: 7 snapshots taken after 90% accuracy is reached. Average score gives class
+
+
+Evaluation / Performance metric
+
+Covid classification problem, Chest xray images
+train: 102 covid, 102 pneumonia (68 viral, 34 bacterial)
+test: 33 covid, 208 pneumonia, all compressed with 0.9 quality
+
+
+A: https://github.com/ieee8023/covid-chestxray-dataset
+B: https://radiopaedia.org/search?utf8=%E2%9C%93&q=covid&scope=all&lang=us
+C: http://www.sirm.org/en/
+
+
+6% false positive rate, worse than other methods
+limitations: small number of cases available 
+	the lack of information on what stage of disease the chest X-rays are from
+	the lack of informationon outcomes 
+	the reduced resolution of the COVID-19 images
