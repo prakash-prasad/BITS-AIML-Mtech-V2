@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3ab45b6-cc0d-466e-a8bd-6e755167452e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Bellman Equation Problem.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi Armed Bandit Problem.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mab_problem_statement.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NLP/asmt/asmt1/pos_tagging_v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../NLP/asmt/asmt1/pos_tagging_v1.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2aox0svk1e3IzUcLDEoIiICdn3I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/praka/Acads/M_Tech/new_git_test/BITS-AIML-Mtech-V2/Sem_2/NLP/asmt/asmt1/Assignment_1_PS19.ipynb"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
