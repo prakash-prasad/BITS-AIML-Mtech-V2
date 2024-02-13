@@ -1,0 +1,19 @@
+﻿Route,Time,Cost,Traffic Intensity,Selection
+1,Best,Minimum,Medium,Yes
+1,Average,Minimum,Low,Yes
+1,Average,Maximum,Low,No
+2,Average,Minimum,Medium,Yes
+2,Best,Maximum,Medium,Yes
+3,Best,Maximum,Low,No
+3,Worst,Maximum,Medium,No
+3,Best,Maximum,Low,Yes
+4,Average,Minimum,High,No
+4,Worst,Minimum,Medium,No
+5,Average,Maximum,High,Yes
+5,Worst,Maximum,High,No
+6,Worst,Maximum,High,Yes
+6,Average,Minimum,Low,Yes
+7,Worst,Minimum,High,Yes
+7,Average,Minimum,Low,Yes
+8,Best,Minimum,Medium,No
+8,Best,Minimum,Low,Yes
